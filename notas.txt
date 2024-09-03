@@ -1,0 +1,15 @@
+Funciones -> Bloque de codigo que permite utilizar una estructura donde se encesita (solo con una definición)
+
+- Simplificación de código
+- Reutilización de código
+- Mantenimiento de código
+
+1 - Función regular o tradicional 
+
+- Funciones de expresión
+- Funciones declarativas
+
+2 - Función flecha 
+
+
+3 - Función Anónima
