@@ -1,5 +1,7 @@
 /* Funcion regular */
 
+// const { skaleHumanProtocol } = require("wagmi/chains")
+
 // function unaFuncion() {
 //     for (let index = 0; index < 5; index++){
     
@@ -100,12 +102,55 @@
 //     alert("La division es: " + (num1 / num2));
 // }
 
-let funcionFlecha = () => {
-    console.log('Esto es una funcion flecha'); 
-}
-funcionFlecha();
+// let funcionFlecha = () => {
+//     console.log('Esto es una funcion flecha'); 
+// }
 
-let funcionDeExpresion = function () {
-    console.log('Esto es una función regular');
-};
-funcionDeExpresion();
+// funcionFlecha();
+
+// let funcionDeExpresion = function () {
+//     console.log('Esto es una función regular');
+// };
+// funcionDeExpresion();
+
+// function unaFuncion(){
+//     console.log(1);
+//     return "Hola";
+// }
+
+// const saludo = unaFuncion();
+// console.log(saludo);
+
+// function suma(a, b = 20){
+//     return a + b;
+// }
+
+
+// const unaFuncion = () => {
+//     console.log(1);
+// };
+
+// unaFuncion();
+
+function convertirCelsiusAFahrenheit(celsius){
+    let resultado = celsius * 9 / 5.0 + 32;
+
+    return resultado;
+}
+
+function convertirCelsiusACelsius(fahrenheit){
+    let resultado = (fahrenheit - 32) * 5 / 9.0;
+
+    return resultado;
+}
+
+let celsius = 32;
+let resultado = convertirCelsiusAFahrenheit(celsius);
+console.log(`${celsius}°C = ${resultado}°F`);
+
+
+console.log();
+
+let fahrenheit = resultado;
+resultado = convertirCelsiusACelsius(fahrenheit);
+console.log(`${fahrenheit}°F = ${resultado}°C`)
