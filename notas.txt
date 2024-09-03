@@ -1,5 +1,5 @@
 Funciones -> Bloque de código que permite utilizar una estructura donde se se necesita (solo con una definición)
- -Simplicación de código
+ -Simplificación de código
  -Reutilización de código
  -Mantenimiento de código
 
@@ -8,7 +8,7 @@ Funciones -> Bloque de código que permite utilizar una estructura donde se se n
     - Funciones declarativas -> Que la función queda guardada dentro de todo el código y es accesible desde cualquier parte (se puede llamar antes de definirse)
 2 - Función Flecha
     - Funciones de expresión
-3 - Función Anónima (Arreglos y Objetos)
+3 - Función Anónima
 
 1 - Se define una función: darle un nombre (camelCase) y agregarle el contenido de código a ejecutar
 2 - Se llama o se invoca la función
