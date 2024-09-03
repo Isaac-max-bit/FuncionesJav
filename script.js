@@ -34,68 +34,78 @@
 // };
 
 
-let  repetir = true;
-while(repetir){
-    let opcion = prompt('Seleccione:\n1 - sumar\n2 - restar\n3 - multiplicar\n4 - dividir\n5 - todas\n6 - salir')
-    switch(opcion){
-        case '1':
-            sumar();
-        break;
-        case '2':
-            restar();
-        break;
-        case '3':
-            multiplicar();
-        break;
-        case '4':
-            dividir();
-        break;
-        case '5':
-            todas();
-        break;
-        case '6':
-            repetir = false;
-        break;
-    }
+// let  repetir = true;
+// while(repetir){
+//     let opcion = prompt('Seleccione:\n1 - sumar\n2 - restar\n3 - multiplicar\n4 - dividir\n5 - todas\n6 - salir')
+//     switch(opcion){
+//         case '1':
+//             sumar();
+//         break;
+//         case '2':
+//             restar();
+//         break;
+//         case '3':
+//             multiplicar();
+//         break;
+//         case '4':
+//             dividir();
+//         break;
+//         case '5':
+//             todas();
+//         break;
+//         case '6':
+//             repetir = false;
+//         break;
+//     }
+// }
+
+// function sumar(){
+//     let num1 = Number(prompt('ingrese un número : '));
+//     let num2 = Number(prompt('ingrese segundo número : '));
+//     alert("La suma es: " + (num1 + num2));
+// }
+
+// function restar(){
+
+//     let num1 = Number(prompt('ingrese un número : '));
+//     let num2 = Number(prompt('ingrese segundo número : '));
+//     alert("La resta es: " + (num1 - num2));
+// }
+
+// function multiplicar(){
+
+//     let num1 = Number(prompt('ingrese un número : '));
+//     let num2 = Number(prompt('ingrese segundo número : '));
+//     alert("La multiplicación es: " + (num1 * num2));
+// }
+
+// function dividir(){
+
+//     let num1 = Number(prompt('ingrese un número : '));
+//     let num2 = Number(prompt('ingrese segundo número : '));
+//     if(num2 === 0){
+//         alert("No se puede dividir por cero");
+//     } else{
+//         alert("La división es: " + (num1 / num2));
+//     }
+// }
+
+// function todas(){
+
+//     let num1 = Number(prompt('ingrese un número : '));
+//     let num2 = Number(prompt('ingrese segundo número : '));
+//     alert("La suma es: " + (num1 + num2));
+//     alert("La resta es: " + (num1 - num2));
+//     alert("La multiplicación es: " + (num1 * num2));
+//     alert("La division es: " + (num1 / num2));
+// }
+
+let funcionFlecha = () => {
+    console.log('Esto es una funcion flecha'); 
 }
+funcionFlecha();
 
-function sumar(){
-    let num1 = Number(prompt('ingrese un número : '));
-    let num2 = Number(prompt('ingrese segundo número : '));
-    alert("La suma es: " + (num1 + num2));
-}
-
-function restar(){
-
-    let num1 = Number(prompt('ingrese un número : '));
-    let num2 = Number(prompt('ingrese segundo número : '));
-    alert("La resta es: " + (num1 - num2));
-}
-
-function multiplicar(){
-
-    let num1 = Number(prompt('ingrese un número : '));
-    let num2 = Number(prompt('ingrese segundo número : '));
-    alert("La multiplicación es: " + (num1 * num2));
-}
-
-function dividir(){
-
-    let num1 = Number(prompt('ingrese un número : '));
-    let num2 = Number(prompt('ingrese segundo número : '));
-    if(num2 === 0){
-        alert("No se puede dividir por cero");
-    } else{
-        alert("La división es: " + (num1 / num2));
-    }
-}
-
-function todas(){
-
-    let num1 = Number(prompt('ingrese un número : '));
-    let num2 = Number(prompt('ingrese segundo número : '));
-    alert("La suma es: " + (num1 + num2));
-    alert("La resta es: " + (num1 - num2));
-    alert("La multiplicación es: " + (num1 * num2));
-    alert("La division es: " + (num1 / num2));
-}
+let funcionDeExpresion = function () {
+    console.log('Esto es una función regular');
+};
+funcionDeExpresion();

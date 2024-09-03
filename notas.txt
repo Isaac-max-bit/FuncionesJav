@@ -1,20 +1,16 @@
-Funciones -> Bloque de codigo que permite utilizar una estructura donde se encesita (solo con una definición)
+Funciones -> Bloque de código que permite utilizar una estructura donde se se necesita (solo con una definición)
+ -Simplicación de código
+ -Reutilización de código
+ -Mantenimiento de código
 
-- Simplificación de código
-- Reutilización de código
-- Mantenimiento de código
-
-1 - Función regular o tradicional 
-
-- Funciones de expresión
-- Funciones declarativas -> Que la función queda guardada dentro de todo el codigo y es accesible desde cualquier parte (se puede llamar antes de definirse)
-
-2 - Función flecha 
-
--Funciones de expresión
-
-3 - Función Anónima
+1 - Función regular o tradicional
+    - Funciones de expresión -> Es una función signada a una variable que se tiene que llamar despues de su definición
+    - Funciones declarativas -> Que la función queda guardada dentro de todo el código y es accesible desde cualquier parte (se puede llamar antes de definirse)
+2 - Función Flecha
+    - Funciones de expresión
+3 - Función Anónima (Arreglos y Objetos)
 
 1 - Se define una función: darle un nombre (camelCase) y agregarle el contenido de código a ejecutar
+2 - Se llama o se invoca la función
 
-2 - se llama o se invoca la función 
+Nota: Las funciones se definen siempre en la parte superior o inferior del código
